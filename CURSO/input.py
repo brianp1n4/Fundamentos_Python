@@ -1,0 +1,1 @@
+nombre = input("¿Como te llamas?")
