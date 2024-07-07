@@ -1,4 +1,4 @@
-#Tarea Modulo 1 
+#Tarea Modulo 1 Calculadora IMC
 
 # Solicitar y validar nombre
 while True:
