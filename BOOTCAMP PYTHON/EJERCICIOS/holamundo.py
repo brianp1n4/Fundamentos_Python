@@ -1,5 +1,8 @@
-print("Hola mundo")
+a = 10
+for i in range(a, 5, -1):
+    a -= 1
 
-print("Este es mi primer programa")
-input( )
+print(a)
 
+    
+    
