@@ -62,13 +62,13 @@ else:
 
             # Determinar en qué cuadrante se encuentra el punto
             if valor_x > 0 and valor_y > 0:
-                print("La coordenada está en el cuadrante I")
+                print(f"La coordenada {valor_x,valor_y} está en el cuadrante I")
             elif valor_x < 0 and valor_y > 0:
-                print("La coordenada está en el cuadrante II")
+                print(f"La coordenada {valor_x,valor_y} está en el cuadrante II")
             elif valor_x < 0 and valor_y < 0:
-                print("La coordenada está en el cuadrante III")
+                print(f"La coordenada {valor_x,valor_y} está en el cuadrante III")
             elif valor_x > 0 and valor_y < 0:
-                print("La coordenada está en el cuadrante IV")
+                print(f"La coordenada {valor_x,valor_y} está en el cuadrante IV")
             break
 
         
