@@ -12,7 +12,7 @@ def captura_alumnos(numero = 3):
     """
     lista_alumnos = []
     for i in range(numero):
-        nombre = input("Ingrese el nombre del alumno: ").capitalize()
+        nombre = input(f"{i + 1}.- Ingrese el nombre del alumno: ").capitalize()
         calificacion1 = int(input(f"Ingrese la primera calificacion de {nombre}: "))
         calificacion2 = int(input(f"Ingrese la segunda calificacion de {nombre}: "))
         lista_alumnos.append([nombre, calificacion1, calificacion2])
